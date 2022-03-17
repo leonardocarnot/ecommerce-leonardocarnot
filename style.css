@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0 ;
+    padding: 0;
+}
+
+body{
+    zoom: 0.8;
+}
+main{
+    display: flex;
+    margin-top: 27px;
+    margin-left: 115px;
+    margin-right: 115px;
+    width: 300px;
+}
+
+.containerPrimeiro{
+    display: flex;
+    box-sizing: border-box;
+}
+
+.containerSegundo{
+    display: flex;
+    margin-top: 67px;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+header h3{
+    position: absolute;
+    margin-top: 23px;
+    margin-left: 118px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 24px;
+    color: #000000;
+}
+
+#menu #title{
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+#menu{
+    background-color: #F5F5F5;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#menu li{
+    margin: 20px;
+    font-weight: normal;
+    margin-top: 27px;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    background-color: #F5F5F5;
+}
+
+#menu li:hover{
+    text-decoration: underline;
+    color:#FFFFFF;
+    text-transform: uppercase;
+}
+
+#menu li a{
+    text-decoration: none;
+    color: #333333;
+}
+
+
+
+.nomeLoja{
+    
+    width: 212px;
+    height: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 24px;
+}
+
+/* CARRINHO COMPRAS */
+.pesquisa {
+    height: 50px;
+    width: 96px;
+    border-radius: 0px;
+    background: #6B54DE;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 16px;
+    color: #FFFFFF;
+}
+
+.digiteAqui{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #828282;
+    width: 246px;
+    height: 50px;
+    border: 1px solid #F5F5F5;
+    box-sizing: border-box;
+    background: #F5F5F5;
+}
+
+.headercarrinhoCompras{
+    display: flex;
+    width: 347px;
+    height: 50px;
+    background: #6B54DE;
+    justify-content: center;
+    margin-top: 10px;
+}
+                                           
+.headercarrinhoCompras h3{
+    display: flex;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.carrinhoCompras{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 347px;
+    background: #F5F5F5;
+    justify-content: flex-start;
+    min-height: 344px;
+}
+
+.carrinhoCompras h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 24px;
+}
+
+.carrinhoCompras small{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #828282;
+    margin-top: 10px;
+}
+
+
+
+/**/
+
+.card{
+    width: 300px;
+    height: 380px;
+    border: 2px solid #F5F5F5;
+    box-sizing: border-box;
+    margin-right: 54px;
+
+}
+
+.card:hover{
+    
+    background: linear-gradient(black,rgb(255, 255, 255));
+}
+
+.cardproductHeader{
+     background: #F5F5F5;
+    border: 2px solid #F5F5F5;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+.cardproductBody{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 15px;
+    box-sizing: border-box;
+}
+
+.card h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333333;
+    margin-top: 15px;
+}
+
+.card span{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #110f0f;
+    margin-top: 15px;
+}
+ .preco{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #2E245E;
+    margin-top: 15px;
+ }
+  
+ a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #828282;
+    text-decoration: none;
+    text-decoration-line: underline;
+    margin-top: 15px;
+    cursor: pointer;
+ }
+
+ .botaoAdiciona a:hover{
+    color: #2E245E;
+ }
+
+ .bloco{
+    width: 72px;
+    height: 26px;
+    background: #2E245E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .bloco p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;  
+    color: white;
+ }
+
+ .carrinho{
+     box-sizing: border-box;
+ }
+
+ .produtoCarrinho{
+     display: flex;
+     width: 273px;
+     height: 80px;
+     margin-top: 21px;
+ }
+
+ .headerprodutoCarrinho{
+     display: flex; 
+     width: 80px;
+     height: 80px;
+     background-color: #FFFFFF;
+     align-items: center;
+     margin-right: 15px;
+ }
+ .produtoCarrinho img{
+    width: 100%;
+}
+
+.bodyprodutoCarrinho{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.bodyprodutoCarrinho h3{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.precoCarrinho{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    color: #2E245E;
+}
+
+.botaoRemove a{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #828282;
+    font-style: normal;
+    text-decoration-line: none;
+}
+
