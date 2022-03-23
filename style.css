@@ -7,7 +7,9 @@
 
 body{
     zoom: 0.8;
+    background-image:url("https://lh3.googleusercontent.com/pw/AM-JKLVM4t8E1DA_WDFnP6zuv_DPl1cxiQ4Pjc06oxUpXV3BQSbi5eNld6xgaRBAYx31Db37l38shX6mw0n4Cvlcf-kWCVFs9D72F6Ku8puL09x4aL7vZqafOp8A8Bqkn7CeZsUbfgNl7DVuPs_PP6YZysUKgQ=w1115-h627-no?authuser=0");
 }
+
 main{
     display: flex;
     margin-top: 27px;
@@ -26,6 +28,8 @@ main{
     margin-top: 67px;
     box-sizing: border-box;
 }
+
+
 
 /* HEADER */
 header h3{
@@ -138,11 +142,11 @@ header h3{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     width: 347px;
     background: #F5F5F5;
     justify-content: flex-start;
     min-height: 344px;
+    justify-content: center;
 }
 
 .carrinhoCompras h3{
@@ -153,7 +157,7 @@ header h3{
     line-height: 24px;
 }
 
-.carrinhoCompras small{
+.carrinhoCompras p{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -173,6 +177,7 @@ header h3{
     border: 2px solid #F5F5F5;
     box-sizing: border-box;
     margin-right: 54px;
+    background-color: #FFFFFF;
 
 }
 
@@ -269,6 +274,7 @@ header h3{
      width: 273px;
      height: 80px;
      margin-top: 21px;
+     margin-bottom: 29px;
  }
 
  .headerprodutoCarrinho{
@@ -318,3 +324,39 @@ header h3{
     text-decoration-line: none;
 }
 
+.rodape {
+    width: 347px;
+    height: 126px;
+    background-color: #333333;
+    display: flex;
+    flex-direction: column;
+}
+
+.rodape p{
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-top: 32px;
+    margin-left: 17px;
+    margin-right: 21px;
+}
+
+.rodapeQuantidade {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.rodapeTotal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#totalRodape{
+    color: #828282;
+}
+
+#qtdRodape{
+    color: #828282;
+}
